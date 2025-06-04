@@ -1,0 +1,15 @@
+# Localtonet
+AppData\\local\\localtonet\\[\w]+;80
+
+# NodeJS In Non-Default Path
+^(?!.*\\Program Files( \(x86\))?\\nodejs\\).*\\node\.exe$;80
+
+# Gremlin Wolf
+\\schet-faktura-090824\.zip$;80
+
+# Grabff
+^(?!C:\\Users\\[^\\]+\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\.*\\)(.*\\(key[34]\.db|logins\.json|cert9\.db))$;80
+^(?!C:\\Users\\[^\\]+\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\)(.*\\Login Data$);80
+
+# ADRecon
+\\.*\\.*ADRecon-Report.*$;80

