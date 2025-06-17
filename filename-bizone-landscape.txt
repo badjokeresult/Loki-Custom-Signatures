@@ -13,3 +13,8 @@ AppData\\local\\localtonet\\[\w]+;80
 
 # ADRecon
 \\.*\\.*ADRecon-Report.*$;80
+
+# Hive0117
+\\.*\\Документ\ из\ налоговой\(запрос\)\.exe$;80
+\\.*\\AppData\\Local\\dynwrapx.dll$;80
+C\:\\ProgramData\\cln_log\.txt$;80

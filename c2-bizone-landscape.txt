@@ -13,3 +13,7 @@ ngrok.io
 
 # Shadow Wolf
 gofile.io
+
+# Money Libra
+78.153.140.96
+194.38.20.199
