@@ -17,3 +17,10 @@ gofile.io
 # Money Libra
 78.153.140.96
 194.38.20.199
+
+# Albino Ghouls
+api.ipify.org
+ipify.org
+
+# IAmTheKing
+smtp.mail.ru

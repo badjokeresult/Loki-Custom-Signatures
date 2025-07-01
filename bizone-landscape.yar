@@ -204,3 +204,58 @@ rule Detect_MeshCentral_Exe {
     )
 }
 
+rule Detect_NirCmd_Exe {
+    meta:
+        description = "Detects NirCmd Presence On Local Machine by BIZONE"
+        author = "glomo"
+        date = "2025-05-27"
+        threat_level = "high"
+
+    condition:
+    (
+        uint16(0) == 0x5a4d and
+        (
+            (pe.version_info["CompanyName"] == "NirSoft") or
+            (pe.version_info["FileDescription"] == "NirCmd") or
+            (pe.version_info["OriginalFilename"] == "nircmd.exe") or
+            (pe.version_info["ProductName"] == "Nircmd")
+        )
+    )
+}
+
+rule Detect_Python_Exe {
+    meta:
+        description = "Detects Python Presence On Local Machine by BIZONE"
+        author = "glomo"
+        date = "2025-05-27"
+        threat_level = "high"
+
+    condition:
+    (
+        uint16(0) == 0x5a4d and
+        (
+            (pe.version_info["CompanyName"] == "Python Software Foundation") or
+            (pe.version_info["FileDescription"] == "Python") or
+            (pe.version_info["OriginalFilename"] == "python.exe") or
+            (pe.version_info["ProductName"] == "Python")
+        )
+    )
+}
+
+rule Detect_UltraVNC_Exe {
+    meta:
+        description = "Detects UltraVNC Presence On Local Machine by BIZONE"
+        author = "glomo"
+        date = "2025-05-27"
+        threat_level = "high"
+
+    condition:
+    (
+        uint16(0) == 0x5a4d and
+        (
+            (pe.version_info["ProductName"] == "UltraVNC") or
+            (pe.version_info["FileDescription"] == "VNC server") or
+            (pe.version_info["OriginalFilename"] == "WinVNC.exe")
+        )
+    )
+}

