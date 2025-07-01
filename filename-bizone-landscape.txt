@@ -17,4 +17,17 @@ AppData\\local\\localtonet\\[\w]+;80
 # Hive0117
 \\.*\\Документ\ из\ налоговой\(запрос\)\.exe$;80
 \\.*\\AppData\\Local\\dynwrapx.dll$;80
-C\:\\ProgramData\\cln_log\.txt$;80
+C:\\ProgramData\\cln_log\.txt$;80
+
+# Albino Ghouls
+\\.*\\^[А-Яа-яЁё0-9]+\.exe$;80
+\\.*\\постановление\ о\ производстве\.exe$;80
+^.*\.[a-zA-Z0-9]+\.exe$;80
+C:\\ProgramData\\debug.+\.log$;80
+
+# Bloody Wolf
+\\.*\\AppData\\Roaming\\AdiletGovKZ\.jar$;80
+\\.*\.crimson$;80
+
+# Shedding Zmiy
+\\.*\\Intellpui\.(exe|txt|ps1|vbs)$;80
