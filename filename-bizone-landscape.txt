@@ -31,3 +31,19 @@ C:\\ProgramData\\debug.+\.log$;80
 
 # Shedding Zmiy
 \\.*\\Intellpui\.(exe|txt|ps1|vbs)$;80
+
+# GOFFEE
+C:\\Users\\\.+\\UserCache\.(lnk\.js|ini)$;80
+
+# Rare Werewolf
+\\.*\\Чертежи\ и\ ТЗ\ +\ КП\ на\ разработку\.scr$;80
+
+# XDSpy
+\\.*\\msi\.dll$;80
+\\.*\\IntegratedOffice\.exe$;80
+
+# APT37
+\\.*\\StatRKZU\.msi$;80
+
+# Angry Likho
+\\.*\\Thumbs\.db$;80

