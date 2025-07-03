@@ -1,3 +1,5 @@
+import "pe"
+
 rule Detect_Localtonet_Exe {
     meta:
         description = "Detects Localtonet Presence On Machine by BIZONE"
@@ -100,7 +102,6 @@ rule Detect_WinPmem_Driver {
         threat_level = "high"
     
     strings:
-        $signer_name = "Binalyze LLC" wide ascii
         $pkcs7_magic = { 30 80 06 09 2A 86 48 86 F7 0D 01 07 02 }
         $cert_publisher = "Binalyze LLC" wide ascii
     
@@ -108,8 +109,7 @@ rule Detect_WinPmem_Driver {
     (
         uint16(0) == 0x5a4d and
         (
-            $pkcs7_magic in (0..filesize) or
-            any of them in pe.resources
+            $pkcs7_magic
         ) and (
             $cert_publisher in (0..filesize)
         )
@@ -199,7 +199,7 @@ rule Detect_MeshCentral_Exe {
             (pe.version_info["OriginalFilename"] == "meshagent.exe") or
             (pe.version_info["ProductName"] == "Mesh Agent Service") or
             (pe.version_info["ProductName"] == "MeshCentral Agent") or
-            (pe.version_info["FileDescription"] == "MeshCentral Background Service Agent") or
+            (pe.version_info["FileDescription"] == "MeshCentral Background Service Agent")
         )
     )
 }

