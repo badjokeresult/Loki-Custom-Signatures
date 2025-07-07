@@ -259,3 +259,54 @@ rule Detect_UltraVNC_Exe {
         )
     )
 }
+
+rule Detect_RemCom_Exe {
+    meta:
+        description = "Detects RemCom Presence On Local Machine by BIZONE"
+        author = "glomo"
+        date = "2025-05-27"
+        threat_level = "high"
+    
+    condition:
+    (
+        uint16(0) == 0x5a4d and
+        (
+            (pe.version_info["InternalName"] == "remcom")
+        )
+    )
+}
+
+rule Detect_SoftPerfect_Exe {
+    meta:
+        description = "Detects SoftPerfect Scanner Presence On Local Machine by BIZONE"
+        author = "glomo"
+        date = "2025-05-27"
+        threat_level = "high"
+    
+    strings:
+        $softperfect = "softperfect" ascii wide
+
+    condition:
+    (
+        uint16(0) == 0x5a4d and
+        (
+            ($softperfect)
+        )
+    )
+}
+
+rule Detect_TightVNC_Exe {
+    meta:
+        description = "Detects TightVNC Presence On Local Machine by BIZONE"
+        author = "glomo"
+        date = "2025-05-27"
+        threat_level = "high"
+    
+    condition:
+    (
+        uint16(0) == 0x5a4d and
+        (
+            (pe.version_info["ProductName"] == "TightVNC")
+        )
+    )
+}

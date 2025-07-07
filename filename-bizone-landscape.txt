@@ -22,7 +22,7 @@ C:\\ProgramData\\cln_log\.txt$;80
 # Albino Ghouls
 \\.*\\^[А-Яа-яЁё0-9]+\.exe$;80
 \\.*\\постановление\ о\ производстве\.exe$;80
-^.*\.[a-zA-Z0-9]+\.exe$;80
+.*\.[a-z0-9]+\.exe$;80
 C:\\ProgramData\\debug.+\.log$;80
 
 # Bloody Wolf
@@ -47,3 +47,23 @@ C:\\Users\\\.+\\UserCache\.(lnk\.js|ini)$;80
 
 # Angry Likho
 \\.*\\Thumbs\.db$;80
+%TEMP%\\fqpowyh.pdf$;80
+
+# Guerrilla Hyena
+\\.*\\RemComSvc.exe$;80
+\\.*\\\.\\pipe\\remcom_communication$;80
+\\.*\\remcon_stdin\.*$;80
+\\.*\\remcom_stdout\.*$;80
+\\.*\\remcom_stderr\.*$;80
+
+# Twelve
+C:\\Windows\\System32\\Tasks\\Update Microsoft$;80
+C:\\Windows\\System32\\Tasks\\YandexUpdate$;80
+\\.*\\netscan\.lic$;80
+\\.*\\netscan\.xml$;80
+
+# BO Team
+\\.*\\vnc\.msi$;80
+
+# IT Army of Ukraine
+\\.*\\CleanRDPHistory\.bat$;80

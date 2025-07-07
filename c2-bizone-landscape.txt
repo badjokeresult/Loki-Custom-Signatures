@@ -24,3 +24,11 @@ ipify.org
 
 # IAmTheKing
 smtp.mail.ru
+
+# Phoenix Hyena
+gs.thc.org
+gsocket.io
+
+# BO Team
+www.tightvnc.com
+
