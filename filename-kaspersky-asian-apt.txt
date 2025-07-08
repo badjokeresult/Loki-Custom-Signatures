@@ -1,0 +1,14 @@
+# GhostEmperor
+(?i)^C:\\Windows\\Help\\Help\\MEUpdate\.exe$;80
+(?i)^C:\\Windows\\Help\\Help\\DumpMinitool\.exe$;80
+(?i)^C:\\Windows\\Help\\Help\\ssp.exe$;80
+(?i)^C:\\Windows\\Help\\Help\\duplicatedump.exe$;80
+(?i)^C:\\Windows\\Help\\Help\\new.exe$;80
+(?i)^C:\\Windows\\Help\\Help\\LSAPlugin.dll$;80
+(?i)^C:\\Windows\\Help\\Help\\Dll7.dll$;80
+
+# China Chopper
+(?i)^C:\\Windows\\Registration\\crml\.exe$;80
+(?i)^c:\\programdata\\microsoft\\windows\\caches\\dnscache\.exe$;80
+(?i)^c:\\programdata\\microsoft\\windows\\caches\\mscoree\.dll$;80
+(?i)^c:\\windows\\help\\sys\.bat$;80
