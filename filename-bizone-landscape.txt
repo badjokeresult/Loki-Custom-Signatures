@@ -67,12 +67,3 @@ C:\\Windows\\System32\\Tasks\\YandexUpdate$;80
 
 # IT Army of Ukraine
 \\.*\\CleanRDPHistory\.bat$;80
-
-# GhostEmperor
-(?i)^C:\\Windows\\Help\\Help\\MEUpdate\.exe$;80
-(?i)^C:\\Windows\\Help\\Help\\DumpMinitool\.exe$;80
-(?i)^C:\\Windows\\Help\\Help\\ssp.exe$;80
-(?i)^C:\\Windows\\Help\\Help\\duplicatedump.exe$;80
-(?i)^C:\\Windows\\Help\\Help\\new.exe$;80
-(?i)^C:\\Windows\\Help\\Help\\LSAPlugin.dll$;80
-(?i)^C:\\Windows\\Help\\Help\\Dll7.dll$;80
